@@ -25,6 +25,7 @@ export const TechStack = () => {
                 <TechLogo iconId={"vscode"}/>
                 <TechLogo iconId={"gitHub"}/>
             </FlexWrapper>
+            
         </StyledTechStack>
     );
 };
