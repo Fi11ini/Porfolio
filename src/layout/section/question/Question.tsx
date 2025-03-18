@@ -13,6 +13,7 @@ export const Question = () => {
     );
 };
 
+
 const StyledQuestion = styled.section`
   display: flex;
   flex-direction: column;
