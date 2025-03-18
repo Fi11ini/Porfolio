@@ -4,6 +4,7 @@ import {Main} from "./layout/section/main/Main.tsx";
 
 import {TechStack} from "./layout/section/techStack/TechStack.tsx";
 import {Projects} from "./layout/section/projects/Projects.tsx";
+import {Question} from "./layout/section/question/Question.tsx";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <TechStack/>
             <Projects/>
+            <Question />
         </div>
     )
 }
