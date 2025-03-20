@@ -1,7 +1,7 @@
 import React  from 'react';
 import {Menu} from "../../components/menu/Menu.tsx";
 import styled from "styled-components";
-import {Social} from "../social/Social.tsx";
+import { SocialList} from "../social/SocialList.tsx";
 import {Logo} from "../../components/logo/Logo.tsx";
 
 export const Header = () => {
@@ -9,7 +9,7 @@ export const Header = () => {
         <StyledHeader>
             <Logo/>
             <Menu/>
-            <Social/>
+            <SocialList/>
         </StyledHeader>
     );
 };
