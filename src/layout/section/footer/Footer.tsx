@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {Logo} from "../../../components/logo/Logo.tsx";
 
 import {SocialList} from "../../social/SocialList.tsx";
+import {Menu} from "../../../components/menu/Menu.tsx";
 
 export const Footer = () => {
     return (
@@ -19,6 +20,12 @@ export const Footer = () => {
                 </Contacts>
                 <SocialList/>
             </SocialFooter>
+            <BottomFooterMenu>
+                <Menu/>
+                <TextFooter>
+                    Designed and built by Pavan MG with Love & Coffee
+                </TextFooter>
+            </BottomFooterMenu>
         </StyledFooter>
     );
 };
@@ -44,5 +51,15 @@ const Email = styled.a`
 `
 
 const Contacts = styled.div`
-  
+
+`
+
+const BottomFooterMenu = styled.span `
+  display: flex;
+  justify-content: space-between;
+`
+
+const TextFooter = styled.span `
+  display: flex;
+  align-items: center;
 `
