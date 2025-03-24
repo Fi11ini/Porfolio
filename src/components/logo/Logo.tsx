@@ -5,7 +5,7 @@ import {Icon} from "../icon/Icon.tsx";
 export const Logo = () => {
     return (
         <StyledLogo href="">
-            <Icon iconId={'js'}/>
+            <Icon  iconId={'js'}/>
         </StyledLogo>
     );
 };

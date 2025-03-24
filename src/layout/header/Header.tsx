@@ -15,7 +15,7 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header `
-  background-color: aquamarine;
+  background-color: #afd0c5;
   display: flex;
   justify-content: space-between;
 `

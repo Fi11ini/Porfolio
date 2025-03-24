@@ -1,24 +1,24 @@
 import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../../components/icon/Icon.tsx";
-import {FlexWrapper} from "../../components/FlexWrapper.tsx";
+
 
 export const SocialList = () => {
     return (
             <StyledSocialList>
                 <SocialItem>
                     <SocialLink>
-                        <Icon height={"30px"} width={"30px"} viewBox={"0 0 15px 15px"} iconId={"linkIdn"}/>
+                        <Icon height={"30px"} width={"30px"} viewBox={"0 0 30px 30px"} iconId={"gitHub1"}/>
                     </SocialLink>
                 </SocialItem>
                 <SocialItem>
                     <SocialLink>
-                        <Icon height={"30px"} width={"30px"} viewBox={"0 0 15px 15px"} iconId={"twitter"}/>
+                        <Icon height={"30px"} width={"30px"} viewBox={"0 0 30px 30px"} iconId={"twitter"}/>
                     </SocialLink>
                 </SocialItem>
                 <SocialItem>
                     <SocialLink>
-                        <Icon height={"30px"} width={"30px"} viewBox={"0 0 15px 15px"} iconId={"linkIdn"}/>
+                        <Icon height={"30px"} width={"30px"} viewBox={"0 0 30px 30px"} iconId={"linkIdn"}/>
                     </SocialLink>
                 </SocialItem>
             </StyledSocialList>
