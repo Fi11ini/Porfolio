@@ -30,7 +30,7 @@ const StyledSocialList = styled.ul`
 
 `
 const SocialItem = styled.li`
-
+  
 `
 
 const SocialLink = styled.a`
