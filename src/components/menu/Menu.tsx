@@ -5,30 +5,38 @@ export const Menu = () => {
     return (
         <StyledMenu>
             <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Tech Stack</a>
-                </li>
-                <li>
-                    <a href="">Projects</a>
-                </li>
-                <li>
-                    <a href="">Contact</a>
-                </li>
+                <ListItem>
+                    <Link href="">Home</Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="">About</Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="">Tech Stack</Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="">Projects</Link>
+                </ListItem>
+                <ListItem>
+                    <Link href="">Contact</Link>
+                </ListItem>
             </ul>
         </StyledMenu>
     );
 };
 
 
-const StyledMenu = styled.nav `
-    ul {
-      display: flex;
-      gap: 30px;
-    }
+const StyledMenu = styled.nav`
+  ul {
+    display: flex;
+    gap: 30px;
+  }
+`
+
+const ListItem = styled.li`
+
+`
+
+const Link = styled.a`
+
 `

@@ -27,6 +27,7 @@ export const SocialList = () => {
 
 const StyledSocialList = styled.ul`
     display: flex;
+    gap: 20px;
 
 `
 const SocialItem = styled.li`
