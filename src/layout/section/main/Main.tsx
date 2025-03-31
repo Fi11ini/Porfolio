@@ -40,6 +40,21 @@ const PhotoWrapper = styled.div`
   height: 350px;
   border-radius: 50%;
 
+  //Квадрат =========
+  &::after {    
+    //position: absolute;
+    //content: '';
+    //border: 1px solid #FFFFFF;
+    //width: 440px;
+    //height: 440px;
+    //top: -50px;
+    //left: -50px;
+    //transform: rotate(-105deg);
+    
+    
+
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -66,7 +81,7 @@ const Photo = styled.img`
 `;
 
 const StyledMain = styled.div`
-  min-height: 100vh;
+  //min-height: 100vh;
   background-color: ${theme.colors.primaryBg};
   display: flex;
   align-items: center;
@@ -82,4 +97,6 @@ const Name = styled.h2`
   text-align: left;
   display: inline-block;
 `
+
+
 
