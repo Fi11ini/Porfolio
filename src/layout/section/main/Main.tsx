@@ -81,7 +81,7 @@ const Photo = styled.img`
 `;
 
 const StyledMain = styled.div`
-  //min-height: 100vh;
+  margin-bottom: 270px;
   background-color: ${theme.colors.primaryBg};
   display: flex;
   align-items: center;

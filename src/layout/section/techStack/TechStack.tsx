@@ -33,7 +33,7 @@ export const TechStack = () => {
 };
 
 const StyledTechStack = styled.section`
-  
+  margin-bottom: 210px;
 `
 
 

@@ -4,35 +4,39 @@ import {Logo} from "../../../components/logo/Logo.tsx";
 
 import {SocialList} from "../../social/SocialList.tsx";
 import {Menu} from "../../../components/menu/Menu.tsx";
+import {Container} from "../../../components/Container.tsx";
+import {theme} from "../../../styles/Theme.tsx";
 
 export const Footer = () => {
     return (
         <StyledFooter>
-            <SocialFooter>
-                <Logo/>
-                <Contacts>
-                    <PhoneNumber href={"#"}>
-                        +375333861697
-                    </PhoneNumber>
-                    <Email href={"#"}>
-                        andreymdm@gmail.com
-                    </Email>
-                </Contacts>
-                <SocialList/>
-            </SocialFooter>
-            <BottomFooterMenu>
-                <Menu/>
-                <TextFooter>
-                    Designed and built by Pavan MG with Love & Coffee
-                </TextFooter>
-            </BottomFooterMenu>
+            <Container>
+                <SocialFooter>
+                    <Logo/>
+                    <Contacts>
+                        <PhoneNumber href={"#"}>
+                            +375333861697
+                        </PhoneNumber>
+                        <Email href={"#"}>
+                            andreymdm@gmail.com
+                        </Email>
+                    </Contacts>
+                    <SocialList/>
+                </SocialFooter>
+                <BottomFooterMenu>
+                    <Menu/>
+                    <TextFooter>
+                        Designed and built by Pavan MG with Love & Coffee
+                    </TextFooter>
+                </BottomFooterMenu>
+            </Container>
         </StyledFooter>
     );
 };
 
 const StyledFooter = styled.section`
   min-height: 30vh;
-  background-color: #f1d4cc;
+  background-color: ${theme.colors.primaryBg};
 
 `
 
