@@ -81,7 +81,7 @@ const Photo = styled.img`
 `;
 
 const StyledMain = styled.div`
-  margin-bottom: 270px;
+  margin: 375px 0 270px;
   background-color: ${theme.colors.primaryBg};
   display: flex;
   align-items: center;

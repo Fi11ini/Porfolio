@@ -31,7 +31,8 @@ const StyledSocialList = styled.ul`
 
 `
 const SocialItem = styled.li`
-  
+  display: flex;
+  align-items: center;
 `
 
 const SocialLink = styled.a`
