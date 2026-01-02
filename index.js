@@ -112,20 +112,137 @@
 //
 // }
 
-const calculator = {
-    read() {
-        this.a = Number(prompt('Введите первое число:', 0));
-        this.b = Number(prompt('Введите второе число:', 0));
-    },
-    sum() {
-        return this.a + this.b;
-    },
-    mul() {
-        return this.a * this.b;
-    }
-};
+// const books = [
+//     {
+//         book_title: "Война и мир",
+//         book_author: "Лев Толстой",
+//         book_year: 1869,
+//     },
+//     {
+//         book_title: "1984",
+//         book_author: "Джордж Оруэлл",
+//         book_year: 1949,
+//     },
+//     {
+//         book_title: "Мастер и Маргарита",
+//         book_author: "Михаил Булгаков",
+//         book_year: 1967,
+//     },
+// ];
 
-calculator.read();
-console.log('calculator', calculator)
-console.log(calculator.sum());
-console.log(calculator.mul());
+
+// function booksChangeName(arrayOfBooks) {
+//     const redacterName = arrayOfBooks.map((objectBook) => {
+//         const newObj = {};
+//
+//         Object.entries(objectBook)
+//             .forEach(([key, value]) => {
+//
+//                 newObj[key === "book_title" ? "TITLE": key] = value;
+//                 // newObj[key === "book_title" ? "title" : key] = value;
+//             });
+//         return newObj;
+//     });
+//
+//     return redacterName;
+//
+// }
+// console.log(booksChangeName(books));
+
+// function booksRenamer(array) {
+//     const redacteredName = array.map((objetOfBooks) => {
+//         console.log(objetOfBooks);
+//         const newObj = {};
+//
+//         Object.entries(objetOfBooks)
+//             .forEach(([key, value]) => {
+//                 newObj[key === 'book_title' ? 'TITLE' : key] = value;
+//                 // newObj[key === 'book_year' ? 'YEAR' : key] = value
+//             });
+//         return newObj;
+//
+//
+//     });
+//
+//     return redacteredName
+// }
+//
+//
+// console.log(booksRenamer(books));
+
+
+// const arrayTest = [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+//
+// function openOrSenior(data) {
+//     return data.map(([age, handicap]) => {
+//         if (age >= 55 && handicap > 7) {
+//             return "Senior";
+//         } else {
+//             return "Open";
+//         }
+//     });
+// }
+
+
+// for (let i = 0; i < data.length ; i++) {
+//     if(data[i][0] < 55 && data[i][1] > 7) {
+//         filteredArray.push(data[i])
+//     }
+// }
+// return filteredArray
+
+// const array = [5, 10, 14];
+// function gimme(triplet) {
+//     const min = triplet.reduce((acc, val) => Math.min(acc, val));
+//     const max = triplet.reduce((acc, val) => Math.max(acc, val));
+//     for (let i = 0; i <triplet.length ; i++) {
+//         if(triplet[i] != min && triplet[i] != max ) {
+//             return triplet.indexOf(triplet[i])
+//         }
+//     }
+// }
+//
+// console.log(gimme(array));
+
+
+// const arrayOfInterval = [
+//     [1, 5], [6, 10], [11, 13]];
+//
+//
+// function sumOfIntervalSizes(intervals) {
+//     let sum = 0;
+//
+//     for (const [first, second] of intervals) {
+//         console.log(first)
+//         sum += second - first
+//     }
+//     return sum
+// }
+//
+//
+// console.log(sumOfIntervalSizes(arrayOfInterval));
+
+
+
+
+// const arrayOfPeople = ['Vadim', 'Alex', 'Andrey', 'Anton'];
+//
+// function likes(names) {
+//     if (names.length === 0) {
+//         return "no one likes this";
+//     } else if (names.length === 1) {
+//         return names[0] + " likes this";
+//     } else if (names.length === 2) {
+//         return names[0] + " and " + names[1] + " like this";
+//     } else if (names.length === 3) {
+//         return names[0] + ", " + names[1] + " and " + names[2] + " like this";
+//     } else {
+//         return names.slice(0, 2).join(", ") + " and " + (names.length - 2) + " others like this";
+//     }
+// }
+//
+//
+// console.log(likes(arrayOfPeople));
+
+
+
